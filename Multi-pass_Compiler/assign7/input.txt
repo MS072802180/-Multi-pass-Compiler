@@ -1,0 +1,24 @@
+{
+	int i ; 
+	int j ; 
+	float v ; 
+	float x ; 
+	float[100] a ;
+	
+    	while(false) 
+	{
+        	do 
+			i = i+1 ; 
+		while( v < a[i]) ;
+		do
+			i=i+2;
+		while(a[i]>v);
+
+
+        	if( i >= j ) 
+			break;
+        	x = a[i] ; 
+		a[i] = a[j] +4; 
+		a[j] = x ;
+    	}
+}
