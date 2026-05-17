@@ -43,7 +43,6 @@ HOW TO COMPILE AND RUN
   4. Run:
        java -cp out assign7.Main
 
-
 ================================================================================
   HOW EACH LINE OF input.txt IS PROCESSED
 ================================================================================
@@ -182,7 +181,6 @@ description of its path through the five stages.
   table scope  ->  TypeChecker exits the scope  ->  InterCode exits the block  ->
   Unparser finishes iterating the statement list; the while loop's "goto L1" and
   final exit label "L7:" are emitted as part of the WhileStatementNode visit.
-
 
 ================================================================================
   FULL OUTPUT FOR input.txt
