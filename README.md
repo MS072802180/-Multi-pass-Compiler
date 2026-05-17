@@ -1,5 +1,6 @@
-# -Multi-pass-Compiler
-A five-stage compiler front-end for a simple imperative language. Reads source code from input.txt and emits three-address intermediate code.
+================================================================================
+  Multi-pass Compiler  |  README
+================================================================================
 
 OVERVIEW
 --------
@@ -44,8 +45,9 @@ HOW TO COMPILE AND RUN
        java -cp out assign7.Main
 
 
+================================================================================
   HOW EACH LINE OF input.txt IS PROCESSED
-
+================================================================================
 
 Below is every logical line of the source file followed by a one-line
 description of its path through the five stages.
@@ -181,6 +183,7 @@ description of its path through the five stages.
   table scope  ->  TypeChecker exits the scope  ->  InterCode exits the block  ->
   Unparser finishes iterating the statement list; the while loop's "goto L1" and
   final exit label "L7:" are emitted as part of the WhileStatementNode visit.
+
 
 ================================================================================
   FULL OUTPUT FOR input.txt
