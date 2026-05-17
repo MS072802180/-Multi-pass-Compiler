@@ -43,9 +43,9 @@ HOW TO COMPILE AND RUN
   4. Run:
        java -cp out assign7.Main
 
-================================================================================
+
   HOW EACH LINE OF input.txt IS PROCESSED
-================================================================================
+
 
 Below is every logical line of the source file followed by a one-line
 description of its path through the five stages.
